@@ -39,3 +39,8 @@
     command => git stash pop
     command => git stash clear
 
+#How to create a new branch :-
+    => git branch <brachName>
+
+#How to switch to branch :-
+    => git checkout <brachName>
