@@ -1,0 +1,16 @@
+#Initilised the git
+    command => git init
+
+#Check Git status
+    =>`git status` is a Git command that displays the state of the working directory and staging area, showing modified files.
+    command => git status
+
+#Adding for staging
+    =>`git add .` adds all new and changed files in your project to the staging area, preparing them for the next commit.
+    command => git add .  for add files
+    command => git add filename for particular file
+
+#Adding changes in git history
+    =>`git commit -m` saves changes with a message explaining what was changed, making it easy to understand later.
+    command => git commit -m "here you can write some message related to what you are changing"
+
