@@ -1,3 +1,9 @@
+#Git config update :-
+    command => git config --list
+    command => git config --global user.name "Your Name"
+    command => git config --global user.email "your_email@example.com"
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
 #Initilised the git
     command => git init
 
