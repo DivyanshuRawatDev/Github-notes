@@ -3,25 +3,38 @@
     command => git config --global user.name "Your Name"
     command => git config --global user.email "your_email@example.com"
 
------------------------------------------------------------------------------------------------------------------------------------------------
-#Initilised the git
+--------------------------------------------------------------------------------------------------------------------------------------------
+#Initilised the git :-
     command => git init
 
-#Check Git status
+#Check Git status :-
     =>`git status` is a Git command that displays the state of the working directory and staging area, showing modified files.
     command => git status
 
-#Adding for staging
+#Adding for staging :-
     =>`git add .` adds all new and changed files in your project to the staging area, preparing them for the next commit.
     command => git add .  for add files
     command => git add filename for particular file
 
-#Adding changes in git history
+#Adding changes in git history :-
     =>`git commit -m` saves changes with a message explaining what was changed, making it easy to understand later.
     command => git commit -m "here you can write some message related to what you are changing"
 
-#To Watch content of file
+#To Watch content of file :-
     =>`cat file` displays a file's content directly in the terminal, useful for quickly viewing file contents without opening or editing.
     command => cat filename
 
+#History of commits :-
+    => Certainly! `git log` command displays a history of commits in the current branch, showing commit IDs, authors, dates, and messages.
+    command => git log
+
+#To remove commit :-
+    => `git reset id` undoes changes to a specific commit. It's like going back in time to that commit's state.
+    command => git reset idOfCommit
+
+#To temporarily save the commit :-
+    =>`git stash` to temporarily save uncommitted changes, allowing you to switch tasks without losing progress.
+    command => git stash
+    command => git stash pop
+    command => git stash clear
 
