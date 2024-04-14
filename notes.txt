@@ -14,3 +14,8 @@
     =>`git commit -m` saves changes with a message explaining what was changed, making it easy to understand later.
     command => git commit -m "here you can write some message related to what you are changing"
 
+#To Watch content of file
+    =>`cat file` displays a file's content directly in the terminal, useful for quickly viewing file contents without opening or editing.
+    command => cat filename
+
+
