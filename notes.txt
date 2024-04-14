@@ -24,6 +24,13 @@
     =>`cat file` displays a file's content directly in the terminal, useful for quickly viewing file contents without opening or editing.
     command => cat filename
 
+#to write and update in a file :-
+    command=>vim filename 
+    =>To start editing, press "i" to enter insert mode.
+    =>Once you're done editing, press "Esc" to exit insert mode.
+    =>To save your changes and exit Vim, type :wq and press Enter.
+    =>If you want to exit without saving changes, type :q! and press Enter.
+
 #History of commits :-
     => Certainly! `git log` command displays a history of commits in the current branch, showing commit IDs, authors, dates, and messages.
     command => git log
